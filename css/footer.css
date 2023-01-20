@@ -1,0 +1,12 @@
+.attribution {
+
+    background-color: var(--ciano-m-escuro);
+    color: var(--branco);
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.attribution a {
+
+    text-decoration: none;
+}

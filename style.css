@@ -1,0 +1,44 @@
+:root {
+
+    --vermelho-claro: hsl(7, 99%, 70%);
+    --amarelo: hsl(51, 100%, 49%);
+    --ciano-escuro: hsl(167, 40%, 24%);
+    --ciano-m-escuro: hsl(168, 34%, 41%);
+    --azul-escuro: hsl(212, 27%, 19%);
+    --azul-mt-escuro: hsl(198, 62%, 26%);
+    --azul-mt-escuro-acinzentado: hsl(213, 9%, 39%);
+    --azul-escuro-acinzentado: hsl(232, 10%, 55%);
+    --azul-acinzentado: hsl(210, 4%, 67%);
+    --branco: hsl(0, 0%, 100%);
+    --fonte-titulo: 'Fraunces', serif;
+}
+
+html {
+
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.mob__img {
+
+    display: block;
+}
+
+.desk__img {
+
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .mob__img {
+
+        display: none;
+    }
+    
+    .desk__img {
+    
+        display: block;
+    }
+}

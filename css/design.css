@@ -1,0 +1,69 @@
+.design,
+.design__block {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.design__block {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 24em 0 2em 0;
+}
+
+.design__block--title {
+
+    color: var(--ciano-escuro);
+    font-family: var(--fonte-titulo);
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.design__block--text {
+
+    color: var(--ciano-escuro);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 1em;
+}
+
+.graphic {
+
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+}
+
+.photography {
+
+    background-image: url("../images/mobile/image-photography.jpg");
+}
+
+@media screen and (min-width: 1440px) {
+
+    .design {
+
+        flex-direction: row;
+    }
+
+    .design__block {
+
+        width: 50%;
+    }
+
+    .design__block--text {
+
+        margin: 0 11.5em;
+    } 
+
+    .graphic {
+
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+    }
+    
+    .photography {
+    
+        background-image: url("../images/desktop/image-photography.jpg");
+    }
+}
